@@ -18,8 +18,8 @@ const mongoose = require("mongoose");
 
 
 
-  mongoose.connect("mongodb://localhost:27017/airbnb", {
-  // .connect("mongodb+srv://fullstackdeveloperchandan:chandan536@cluster0.35zfuqi.mongodb.net/AirbnbClone", {
+  mongoose
+    .connect("mongodb+srv://fullstackdeveloperchandan:chandan536@cluster0.35zfuqi.mongodb.net/AirbnbClone", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
